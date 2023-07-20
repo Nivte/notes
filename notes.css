@@ -1,0 +1,31 @@
+.addNoteBtn {
+  height: 3vh;
+  width: 10vw;
+  position: absolute;
+  top: 13vh;
+  left: 2vw;
+}
+
+.zone {
+  position: absolute;
+  top: 20vh;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.note {
+  height: 20vh;
+  width: 15vw;
+  background-color: bisque;
+  border: solid black 0.5px;
+  margin-left: 5vw;
+  margin-bottom: 12vh;
+}
+
+#textBox {
+  height: 20vh;
+  width: 15vw;
+  background-color: bisque;
+  padding: 10%;
+}
