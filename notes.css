@@ -1,31 +1,77 @@
 .addNoteBtn {
-  height: 3vh;
+  height: 4vh;
   width: 10vw;
   position: absolute;
   top: 13vh;
   left: 2vw;
+  font-size: 2.5vh;
 }
 
 .zone {
+  margin-top: 5vh;
+  width: 100vw;
   position: absolute;
   top: 20vh;
   display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.date {
+  position: relative;
+  top: 0vh;
+  left: 3vw;
+  z-index: 3;
+
 }
 
 .note {
   height: 20vh;
   width: 15vw;
-  background-color: bisque;
-  border: solid black 0.5px;
-  margin-left: 5vw;
-  margin-bottom: 12vh;
+
+  /* border: solid black 0.5px; */
+  margin-left: 7vw;
+  margin-bottom: 25vh;
+
 }
 
-#textBox {
+.textBox {
   height: 20vh;
   width: 15vw;
   background-color: bisque;
   padding: 10%;
+  resize: none;
+}
+
+.delBtn {
+  height: 5vh;
+  width: 6vw;
+  font-size: 3vh;
+  position: relative;
+  left: 12.1vw;
+}
+
+.saveValueBtn {
+  position: relative;
+  height: 5vh;
+  width: 8vw;
+  left: -6.2vw;
+
+
+  font-size: 3vh;
+}
+
+.serial {
+  position: relative;
+  left: 10vw;
+  top: -3.5vh;
+}
+
+.delAllBtn {
+  position: absolute;
+  top: 13vh;
+  left: 20vw;
+  height: 4vh;
+  width: 15vw;
+  font-size: 2.5vh;
+  background-color: rgb(243, 140, 140);
 }
