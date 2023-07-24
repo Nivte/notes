@@ -1,3 +1,8 @@
+
+h1 {
+  text-align: center;
+}
+
 .addNoteBtn {
   height: 4vh;
   width: 10vw;
@@ -5,6 +10,16 @@
   top: 13vh;
   left: 2vw;
   font-size: 2.5vh;
+}
+
+.delAllBtn {
+  position: absolute;
+  top: 13vh;
+  left: 20vw;
+  height: 4vh;
+  width: 15vw;
+  font-size: 2.5vh;
+  background-color: rgb(243, 140, 140);
 }
 
 .zone {
@@ -21,7 +36,6 @@
   top: 0vh;
   left: 3vw;
   z-index: 3;
-
 }
 
 .note {
@@ -31,7 +45,6 @@
   /* border: solid black 0.5px; */
   margin-left: 7vw;
   margin-bottom: 25vh;
-
 }
 
 .textBox {
@@ -56,7 +69,6 @@
   width: 8vw;
   left: -6.2vw;
 
-
   font-size: 3vh;
 }
 
@@ -66,12 +78,81 @@
   top: -3.5vh;
 }
 
-.delAllBtn {
-  position: absolute;
-  top: 13vh;
-  left: 20vw;
-  height: 4vh;
-  width: 15vw;
-  font-size: 2.5vh;
-  background-color: rgb(243, 140, 140);
+@media screen and (max-width: 400px) {
+  .addNoteBtn {
+    height: 7vh;
+    width: 20vw;
+    position: absolute;
+    top: 13vh;
+    left: 8vw;
+    font-size: 2.5vh;
+  }
+
+  .delAllBtn {
+    position: absolute;
+    top: 13vh;
+    left: 40vw;
+    height: 7vh;
+    width: 45vw;
+    font-size: 2.5vh;
+    background-color: rgb(243, 140, 140);
+  }
+
+  .zone {
+    margin-top: 5vh;
+    width: 100vw;
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .date {
+    position: relative;
+    top: 0vh;
+    left: 3vw;
+    z-index: 3;
+  }
+
+  .note {
+    height: 30vh;
+    width: 60vw;
+
+    /* border: solid black 0.5px; */
+    margin-left: 7vw;
+    margin-bottom: 25vh;
+  }
+
+  .textBox {
+    height: 30vh;
+    width: 60vw;
+    background-color: bisque;
+    padding: 10%;
+    resize: none;
+  }
+
+  .delBtn {
+    height: 5vh;
+    width: 26vw;
+    font-size: 3vh;
+    position: relative;
+    left: 46vw;
+  }
+
+  .saveValueBtn {
+    position: relative;
+    height: 5vh;
+    width: 36vw;
+    left: 0vw;
+    top: -5vh;
+
+    font-size: 3vh;
+  }
+
+  .serial {
+    position: relative;
+    left: 60vw;
+    top: -105vh;
+  }
 }
