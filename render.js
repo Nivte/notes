@@ -18,7 +18,8 @@ ${noteArr[n].userWrote}
    </textarea>
   
    <button onclick="deleteNote()" id="delBtn${n}" class="delBtn" >Delete</button>
-   <button onclick="saveValue()" id="saveValueBtn${n}" class="saveValueBtn">Save Value</button>
+   <button onclick="saveValue()" id="saveValueBtn${n}" class="saveValueBtn">Save Value
+   </button>
    <div class="serial"> ${n} </div>
  </div>`;
     n++;
