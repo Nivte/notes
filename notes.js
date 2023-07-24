@@ -89,9 +89,9 @@ function saveValue() {
       : event.target.id[12]
   ].userWrote = written.value;
   console.log(noteArr);
+
+  $zone.innerHTML = "";
+  convert();
   save();
   saveId();
 }
-
-
-

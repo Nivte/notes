@@ -32,6 +32,8 @@ convert();
 // localStorage.clear()
 
 function renderAddNote() {
+
+
   $zone.innerHTML += `  
 
  
@@ -51,6 +53,7 @@ function renderAddNote() {
   <button onclick="saveValue()" id="saveValueBtn${n}" class="saveValueBtn">Save Value</button>
   <div class="serial"> ${n} </div>
 </div>`;
+
 }
 
 function renderDelNote() {
