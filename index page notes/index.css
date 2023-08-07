@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+#projectHeader {
+  position: absolute;
+  top: 0vh;
+}
+
+#topLine {
+  width: 100vw;
+  height: 5vh;
+  background-color: #f2f2f2;
+  border: solid black;
+}
+
+.toHome {
+  position: relative;
+  color: #f2f2f2;
+  width: 10vw;
+  left: 20vw;
+  top: 0.7vh;
+  background-color: #00506b;
+  border-radius: 20%;
+}
+
+#main {
+  height: 30vh;
+  background-color: #70abdf;
+  position: relative;
+  top: -3.5vh;
+}
+
+#projectName {
+  text-align: center;
+  padding-top: 2vh;
+}
+
+#projectDescription {
+  text-align: center;
+}
+
+#DLBtn {
+  position: relative;
+  top: 2vh;
+  left: 55vw;
+  border-radius: 30%;
+  height: 5vh;
+  background-color: #f2f2f2;
+}
+
+#viewBtn {
+  position: relative;
+  top: 2vh;
+  left: 35vw;
+  border-radius: 30%;
+  height: 5vh;
+  background-color: #f2f2f2;
+}
+
+.langContainer {
+  margin-top: 32vh;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  /* background-color: #f2f2f2; */
+}
+
+.htmlLogo {
+  height: 9vh;
+  width: 4vw;
+}
+
+.cssLogo {
+  height: 8vh;
+  width: 3vw;
+}
+
+.scssLogo {
+  height: 8vh;
+  width: 3vw;
+}
+.bsLogo {
+  height: 8vh;
+  width: 3vw;
+}
+.jsLogo {
+  height: 8vh;
+  width: 3vw;
+}
+.tsLogo {
+  height: 8vh;
+  width: 3vw;
+}
+
+.githubLogo {
+  height: 8vh;
+  width: 3vw;
+}
+
+.vsLogo {
+  height: 8vh;
+  width: 3vw;
+}
+
+.FrontImg {
+  position: absolute;
+  top: 55vh;
+  height: 45vh;
+  width: 60vw;
+  left: 20vw;
+}
+
+@media screen and (max-width: 1700px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: 30vw;
+    border-radius: 30%;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: 25vw;
+    border-radius: 30%;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: 20vw;
+    border-radius: 30%;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: 15vw;
+    border-radius: 30%;
+    height: 5vh;
+  }
+
+  .toHome {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: 3vw;
+    border-radius: 30%;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: -16vw;
+    border-radius: 30%;
+    height: 5vh;
+  }
+
+  .toHome {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #viewBtn {
+    position: relative;
+    top: 2vh;
+    left: -28vw;
+    border-radius: 30%;
+    height: 3.5vh;
+  }
+
+  .toHome {
+    width: 28vw;
+  }
+
+  #DLBtn {
+    height: 3.5vh;
+    background-color: #f2f2f2;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .htmlLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+
+  .cssLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+
+  .scssLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+  .bsLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+  .jsLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+  .tsLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+
+  .githubLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+
+  .vsLogo {
+    height: 10vh;
+    width: 6vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .htmlLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+
+  .cssLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+
+  .scssLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  .bsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  .jsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  .tsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+
+  .githubLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+
+  .vsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+}
